@@ -15,7 +15,7 @@ export default function Hero(){
     <section className="fast-food-section bg-[40%]  kenburns-top duration-300 flex flex-row-reverse">
         <Image src={logo} width={450} height={450} alt="Delicious fast food"  objectFit="cover"data-aos="zoom-in-up" />
         
-        <div className="text-[#C7253E] h-[250px] sm:h-auto w-full mt-6 sm:mt-0 text-3xl pt-10">
+        <div className="text-[#C7253E] h-[250px] sm:h-auto  sm:w-full mt-6 sm:mt-0 text-3xl pt-10">
             <h1 className="fast-food-title flex-wrap  text-center text-3xl bg-[#e7cc96] duration-500" data-aos="zoom-in-up">
                 Fast Food Eats, Delivered in Karachi
             </h1>
