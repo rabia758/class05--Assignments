@@ -1,10 +1,7 @@
 "use client";
 
 import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import Image from "next/image";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
