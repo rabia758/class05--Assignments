@@ -53,6 +53,7 @@
   }
   .nav-links {
       font-size: 1rem; /* Smaller links */
+      gap:5px;
   }
 }
 
@@ -76,18 +77,20 @@
   .fast-food-section {
       flex-direction: column; /* Stack elements vertically */
       height: auto; /* Adjust height */
-      padding: 10px;
+      padding: 5px;
+      margin-top: 0px;
        /* Add some padding */
   }
   
   .fast-food-title {
       font-size: 1.75rem; /* Reduce title size */
-      margin-bottom: 10px; /* Space below title */
+    margin-top: 0%;/* Space below title */
   }
   
   .fast-food-description {
       font-size: 1rem; /* Reduce description size */
       text-align: center; /* Center text */
+      justify-content: flex-start;
   }
 }
 
@@ -99,17 +102,26 @@
   .fast-food-section {
       flex-direction: column; /* Stack elements vertically */
       height: auto; /* Adjust height */
-      padding: 20px; 
-      /* Add some padding */
+      padding: 5px;  /* Add some padding */
+      margin-top: 0%;
   }
   .fast-food-title {
       font-size: 1.5rem; /* Smaller title */
+      margin-top: 0%;
   }
   .fast-food-description {
       font-size: 1rem; /* Smaller description */
       text-align: center; /* Center the text */
-      ;
+      margin-top: 0px;
+      justify-content: flex-start;
+      
   }
+
+  .btn{
+    margin-top:0px;
+    width: 100%;
+  }
+
 }
 
 /* Media query for max-width 250px */
@@ -118,7 +130,13 @@
       font-size: 1.2rem; /* Further reduce title size */
   }
   .fast-food-description {
-      font-size: 0.9rem; /* Smaller description */
+      font-size: 0.9rem;
+      margin-top: 0px; /* Smaller description */
+      justify-content: flex-start;
+  }
+  .btn{
+    margin-top:0px;
+    width: 100%;
   }
 }
 

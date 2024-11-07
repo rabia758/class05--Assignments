@@ -12,16 +12,18 @@ export default function Hero(){
     return(
         <>
     
-    <section className="fast-food-section bg-[40%] bg-left kenburns-top duration-300 flex flex-row-reverse">
+    <section className="fast-food-section bg-[40%]  kenburns-top duration-300 flex flex-row-reverse">
         <Image src={logo} width={450} height={450} alt="Delicious fast food"  objectFit="cover"data-aos="zoom-in-up" />
         
-        <div className="text-[#C7253E] h-[250px] w-1/2 mt-6 text-3xl pt-10">
-            <h1 className="fast-food-title flex-wrap overflow-auto text-center text-3xl bg-[#e7cc96] duration-500" data-aos="zoom-in-up">
+        <div className="text-[#C7253E] h-[250px] sm:h-auto w-full mt-6 sm:mt-0 text-3xl pt-10">
+            <h1 className="fast-food-title flex-wrap  text-center text-3xl bg-[#e7cc96] duration-500" data-aos="zoom-in-up">
                 Fast Food Eats, Delivered in Karachi
             </h1>
             <br />
-            <p className="fast-food-description text-xl">
-                Everyone loves fried chicken, burgers, pizza & more! Take a juicy piece of chicken, coat it in a slightly spicy batter, and fry until golden brown and crispy. This finger-licking food is easy to eat on the move or great for tucking into at home.
+            <p className="fast-food-description text-xl sm:flex-row">
+                Everyone loves fried chicken, burgers, pizza & more! Take a juicy piece of chicken, 
+                coat it in a slightly spicy batter, and fry until golden brown and crispy.
+            
             </p>
         </div>
     </section>
@@ -69,7 +71,7 @@ export default function Hero(){
 
         <div className=" box ">
             <div className= "box-content">
-             <h1>Twister Combo Roll</h1>
+             <h1>Twister Roll</h1>
               <div className="box-img ">
               <Image src={twister} alt="burger image" ></Image>
               </div>

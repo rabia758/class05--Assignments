@@ -5,7 +5,7 @@ export default function Header(){
         <div className="nav-container">
         <nav className="flex justify-between items-center gap-10 mt-5 h-[60px] text-xl">
             <h1 className="nav-title text-4xl mt-3" data-aos="zoom-in-up">Fast Food</h1>
-            <ul className="nav-links flex items-center justify-end gap-10 h-[60px] mt-5 text-2xl">
+            <ul className="nav-links flex items-center justify-end gap-10 sm:gap-5 sm:mt-0 h-[60px] mt-5 text-2xl">
                 <Link href="/">
                     <li className="hover:underline">Home</li>
                 </Link>
